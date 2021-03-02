@@ -20,7 +20,7 @@ color:black;
 }
 
 .wrapper {
-  width: 940px;
+  width: 980px;
   margin: 0 auto;
   padding: 0 10px
 }
@@ -34,17 +34,34 @@ h2 {
   font-size: 55px;
 }
 
+h3 {
+  color:black;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
 .section-title h3 {
+  margin-top: 20px;
+  text-align: center;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+
+.section-title p{
+  text-align: center;
+}
+
 .bleu
 {
   color: rgb(16, 148, 180);
 }
-
+.clear{
+  clear: both;
+}
 /*HEADER*/
 
 header{
@@ -103,22 +120,6 @@ header nav ul li a {
   text-align: center;
   border-radius: 3px;
 }
-
-.section-title p {
-  font-size: 20px;
-  font-weight: 300;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 /*pied de pages*/
 footer {
