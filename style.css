@@ -8,17 +8,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-UL {
+ul {
   list-style: none;
+  
 }
 
 a {
 text-decoration: none;
 color:black;
+
 }
 
 .wrapper {
-  width: 1500px;
+  width: 940px;
   margin: 0 auto;
   padding: 0 10px
 }
@@ -49,6 +51,7 @@ header nav {
 }
 
 header nav ul li {
+  float: left;
   display:inline-block;
 }
 
@@ -56,6 +59,14 @@ header nav ul li a {
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 20px;
+}
+
+
+/*Profil*/
+
+#Profil {
+  height: 580px;
+  background url()
 }
 
 
