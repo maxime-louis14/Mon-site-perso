@@ -22,9 +22,9 @@ ul {
   a {
   text-decoration: none;
   color:black;
-  
   }
-  
+
+
   .wrapper {
     width: 980px;
     margin: 0 auto;
@@ -46,8 +46,6 @@ ul {
     margin-top: 30px;
     font-size: 23px;
   }
-
-  
 
 /*HEADER*/
 
@@ -75,3 +73,16 @@ header{
     font-weight: bold;
     margin-right: 20px;
   }
+
+  /*img*/
+  #Projets img {
+    width: 48%;
+    margin-left: auto;
+    margin-top: 50px;
+
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+}
