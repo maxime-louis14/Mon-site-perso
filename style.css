@@ -29,6 +29,11 @@ h1{
   font-size: 45px
 }
 
+h2 {
+  color:beige;
+  font-size: 55px;
+}
+
 .bleu
 {
   color: rgb(16, 148, 180);
@@ -65,8 +70,27 @@ header nav ul li a {
 /*Profil*/
 
 #Profil {
-  height: 580px;
-  background url()
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-image: url(images/backgrounds/setup3.jpg);
+}
+#Profil h2 {
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 150px 0 40px 0;
+}
+
+.Button-1 {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background-color: aqua;
 }
 
 
@@ -75,7 +99,7 @@ footer {
   text-align: center;
   background:#ccc;
 
-position:absolute;
+
 
 bottom:0;
 
