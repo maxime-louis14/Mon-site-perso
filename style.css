@@ -191,8 +191,13 @@ article h4{
   margin:10px;
 }
 
+
+
 @media all and (max-width: 1024px) {
 
+
+
+  
   #Projets article {
     width: auto;
     text-align: center;
