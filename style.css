@@ -193,15 +193,12 @@ article h4{
 
 
 
-/*pied de pages
+/*pied de pages*/
 footer {
   text-align: center;
   background:#ccc;
 bottom:0;
-
 width:100%;
-
 padding-top:50px;
-
 height:50px;
-}*/
+}
