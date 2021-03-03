@@ -91,6 +91,11 @@ header{
     border-style: none;
 }
 
+@media (min-width: 1024px) {
+
+
+  
+}
 
 /*pied de pages*/
 footer {
