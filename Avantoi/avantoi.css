@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
   .bleu
@@ -35,6 +35,19 @@ ul {
     font-size: 45px;
     text-align: center;
   }
+
+  h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+P small {
+  margin-top: 10px;
+  font-family: Arial;
+  margin-top: 16px;
+  font-size: 16px;
+}
   
   
 /*HEADER*/
@@ -63,5 +76,30 @@ header{
     font-weight: bold;
     margin-right: 20px;
   }
+
+
+   /*img*/
+   #Projets img {
+    width: 48%;
+    margin-left: auto;
+    margin-top: 50px;
+
+  }
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+/*pied de pages*/
+footer {
+  text-align: center;
+  background:#ccc;
+bottom:0;
+width:100%;
+padding-top:50px;
+height:50px;
+}
 
  
