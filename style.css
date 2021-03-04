@@ -194,16 +194,15 @@ article h4{
 
 
 @media all and (max-width: 1024px) {
-
-
-
-  
+ 
   #Projets article {
     width: auto;
     text-align: center;
+    
    }
    article {
      margin-top: 20px
+     padding-top: 20;
    }
    nav {
     width: auto;
