@@ -76,7 +76,7 @@ float: left;
 margin-top: 32px;
 }
 
-header nav {
+ul  {
   float: right;
   margin-top: 50px;
 }
@@ -193,38 +193,7 @@ article h4{
 
 
 
-@media all and (max-width: 1024px) {
- 
-  #Projets article {
-    width: auto;
-    text-align: center;
-    
-   }
-   article {
-     margin-top: 20px;
-     padding-top: 20;
-   }
-   nav {
-    width: auto;
-    text-align: left;
-  }
-   
-  nav ul {
-    flex-direction: column;
-  }
-  
-  nav li {
-    padding-left: 4px;
-  }
-  nav a:hover {
-    border-bottom: 0;
-  }
-  #a {
-    display: none;
-  }
 
-  
-}
 
 /*pied de pages*/
 footer {
