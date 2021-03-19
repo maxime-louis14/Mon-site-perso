@@ -196,6 +196,7 @@ small {
   .header .menu-icon {
     display: none;
   }
+
 }
 
 img {
@@ -203,13 +204,12 @@ img {
 } 
 /*main-image mobiles*/
 
-@media screen and (min-width: 768px) {
- 
-    .section .wrapper {
-      padding: 20px, 30px;
+@media (min-width: 768px) {
 
-    }
- 
+.projets {
+    float: right;
+    margin-top: 20px;
+}
 }
 
 
