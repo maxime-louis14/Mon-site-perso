@@ -198,6 +198,20 @@ small {
   }
 }
 
+img {
+  max-width: 100%;
+} 
+/*main-image mobiles*/
+
+@media screen and (min-width: 768px) {
+ 
+    .section .wrapper {
+      padding: 20px, 30px;
+
+    }
+ 
+}
+
 
 /*section title*/
 
@@ -250,9 +264,10 @@ article {
 #Projets article {
   width: 460px;
   height: 270px;
-  float: left;
+ float: left;
   border-radius: 10px;  
 }
+
 
 #Projets article:first-child {
   margin-right: 30px;
