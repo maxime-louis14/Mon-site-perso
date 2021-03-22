@@ -22,11 +22,7 @@ a  {
   width: 980px;
   margin: 0 auto;
   padding: 0 10px;   
-}
-
-.content {
-   padding: 10px;
-}
+} 
 
 h2 {
   color:rgb(136, 236, 243);
@@ -203,15 +199,20 @@ small {
 
 }
 
+
 img {
   max-width: 100%;
 } 
 /*main-image mobiles*/
 
-@media (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
   max-width: 10px;
 }
+.wrapper {
+max-width: 453px;
+}
+
 }
 
 
