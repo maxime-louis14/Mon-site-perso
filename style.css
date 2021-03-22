@@ -24,6 +24,10 @@ a  {
   padding: 0 10px;   
 }
 
+.content {
+   padding: 10px;
+}
+
 h2 {
   color:rgb(136, 236, 243);
   font-size: 55px;
