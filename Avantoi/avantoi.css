@@ -2,7 +2,7 @@
 
 *{
     margin: 0px;
-    padding: 0px
+    padding: 0px;
 }
 
 body {
@@ -49,6 +49,10 @@ P small {
   font-size: 16px;
 }
   
+
+article {
+  margin-top: 100px;
+}
   
 /*HEADER*/
 
@@ -61,7 +65,7 @@ P small {
   position: fixed;
   width: 100%;
   z-index: 3;
-  margin-top: -20px;
+  margin-top: -97px;
 }
 
 .header ul {
@@ -198,7 +202,6 @@ P small {
     width: 48%;
     margin-left: auto;
     margin-top: 50px;
-
   }
 
   img {
@@ -206,11 +209,6 @@ P small {
     border-style: none;
 }
 
-@media (min-width: 1024px) {
-
-
-  
-}
 
 /*pied de pages*/
 footer {
