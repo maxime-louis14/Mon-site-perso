@@ -55,9 +55,6 @@ article {
 }
   
 /*HEADER*/
-
-
-
   
 .header {
   background-color: #fff;
@@ -195,6 +192,26 @@ article {
 
 }
 
+@media (max-width: 48em) {
+
+  h2 {
+    text-align: left;
+  }
+  
+  p small{
+   float: left;
+   
+  }
+
+img {
+  max-width: 240px;
+}
+
+article {
+  
+}
+
+}
 
 
    /*img*/
