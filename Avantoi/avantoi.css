@@ -200,7 +200,7 @@ article {
   
   p small{
    float: left;
-   
+   overflow: 10;
    
   }
 
@@ -210,8 +210,6 @@ img {
 }
 
 }
-
-
    /*img*/
    #Projets img {
     width: 48%;
