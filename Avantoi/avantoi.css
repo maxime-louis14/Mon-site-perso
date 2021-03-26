@@ -199,13 +199,13 @@ article {
   }
   
   p {
-    width: 30em;
+    width: 24em;
     height: 9em;
    overflow: hidden;  
   }
 
 img {
-  max-width: 240px;
+  max-width: 206px;
 }
 
 
