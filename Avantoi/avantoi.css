@@ -198,16 +198,18 @@ article {
     text-align: left;
   }
   
-  p small{
-   float: left;
-   overflow: 10;
-   
+  p {
+    width: 30em;
+    height: 9em;
+   overflow: hidden;  
   }
 
 img {
   max-width: 240px;
-
 }
+
+
+
 
 }
    /*img*/
