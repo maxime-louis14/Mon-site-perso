@@ -204,10 +204,6 @@ h3 {
 
 }
 
-
-img {
-  max-width: 100%;
-} 
 /*main-image mobiles*/
 
 @media screen and (max-width: 768px) {
@@ -221,6 +217,9 @@ max-width: 453px;
 }
 
 
+img {
+  max-width: 100%;
+} 
 /*section title*/
 
 #main-image {
@@ -330,6 +329,9 @@ article h4{
   border-radius: 3px;
   margin:10px;
 }
+
+/*Dark Mode */
+
 
 
 
