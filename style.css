@@ -25,18 +25,50 @@ a  {
 } 
 
 h2 {
-  color:rgb(0, 132, 255);
+  color:rgb(255, 255, 255);
   font-size: 65px;
 }
 
 h3 {
-  color:black;
+  color:rgb(0, 0, 0);
   font-size: 24px;
 }
 
  a h4  {
   text-transform: uppercase;
 }
+/*section title*/
+
+#main-image {
+  position: relative;
+  height: 90vh;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-image: url(/images/backgrounds/setup3.jpg);
+}
+#main-image h2 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: -150px;
+ 
+}
+
+.Button-1 {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background-color: rgb(16, 148, 180);
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 0 450px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+
 
  .section-title small { 
   font-size: 20px;
@@ -181,37 +213,6 @@ h3 {
 img {
   max-width: 100%;
 } 
-/*section title*/
-
-#main-image {
-  position: relative;
-  height: 90vh;
-  background-size: cover;
-  background-position: 50%;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  background-image: url(/images/backgrounds/setup3.jpg);
-}
-#main-image h2 {
-  font-weight: normal;
-  text-align: center;
-  margin-bottom: 20px;
- 
-}
-
-.Button-1 {
-  display: block;
-  width: 120px;
-  height: 50px;
-  background-color: rgb(16, 148, 180);
-  color:#fff;
-  font-size: 20px;
-  margin: 0 450px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 20px;
-}
 
 /* Projets*/
 
