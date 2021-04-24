@@ -22,22 +22,53 @@ a  {
 .wrapper {
   width: 980px;
   margin: 0 auto;
-  padding: 0 10px;   
 } 
 
 h2 {
   color:rgb(255, 255, 255);
-  font-size: 55px;
+  font-size: 65px;
 }
 
 h3 {
-  color:black;
+  color:rgb(0, 0, 0);
   font-size: 24px;
 }
 
  a h4  {
   text-transform: uppercase;
 }
+/*section title*/
+
+#main-image {
+  position: relative;
+  height: 90vh;
+  background-size: cover;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-image: url(/images/backgrounds/setup3.jpg);
+}
+#main-image h2 {
+  font-weight: normal;
+  text-align: center;
+  margin-top: -178px;
+ 
+}
+
+.Button-1 {
+  display: block;
+  width: 120px;
+  height: 50px;
+  background-color: rgb(16, 148, 180);
+  color:rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 0 450px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+
 
  .section-title small { 
   font-size: 20px;
@@ -179,78 +210,9 @@ h3 {
   top: 0;
 }
 
-/* 48em = 768px */
-
-@media (min-width: 48em) {
-  .header li  {
-    float: left;
-  }
-
-  h1 {
-    float: left;
-  }
-
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-
-}
-
-
 img {
   max-width: 100%;
 } 
-/*main-image mobiles*/
-
-@media screen and (max-width: 768px) {
-  .container {
-  max-width: 10px;
-}
-.wrapper {
-max-width: 453px;
-}
-
-}
-
-
-/*section title*/
-
-#main-image {
-  position: relative;
-  height: 100vh;
-  background-size: cover;
-  background-position: 50%;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  background-image: url(images/backgrounds/setup3.jpg);
-}
-#main-image h2 {
-  font-weight: normal;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.Button-1 {
-  display: block;
-  width: 120px;
-  height: 50px;
-  background-color: rgb(16, 148, 180);
-  color:#fff;
-  font-size: 20px;
-  margin: 0 auto;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 3px;
-}
 
 /* Projets*/
 
@@ -274,7 +236,8 @@ article {
   width: 460px;
   height: 270px;
  float: left;
-  border-radius: 10px;  
+  border-radius: 10px;
+  margin-top: 15px;  
 }
 
 
@@ -330,6 +293,43 @@ article h4{
   margin:10px;
 }
 
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li  {
+    float: left;
+  }
+
+  h1 {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+}
+
+/*main-image mobiles*/
+
+@media screen and (max-width: 768px) {
+  .container {
+  max-width: 10px;
+}
+.wrapper {
+max-width: 453px;
+}
+
+}
 
 
 /*pied de pages*/
