@@ -17,13 +17,15 @@
     text-decoration: none;
     color:black;
   }
- 
+ p{
+   text-align:left;
+ }
   .container {
     position: absolute;
-    top: 50%;
+    top: 32%;
     left: 10px;
     transform: translate(0, 90%);
-    width: 480px;
+    width: 350px;
     padding: 30px;
     background: #fff;
     box-sizing: border-box;
