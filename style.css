@@ -28,7 +28,7 @@ a  {
 
 h2 {
   color:rgb(255, 255, 255);
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h3 {
@@ -54,7 +54,7 @@ h3 {
 #main-image h2 {
   font-weight: normal;
   text-align: center;
-  margin-top: -178px;
+  margin-top: -110px;
  
 }
 
@@ -73,7 +73,7 @@ h3 {
 
 
  .section-title small { 
-  font-size: 20px;
+  font-size: 17px;
   font-style: italic;
   
 }
@@ -106,7 +106,7 @@ h3 {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
-  width: 100%;
+  width: 82%;
   z-index: 3;
 }
 
