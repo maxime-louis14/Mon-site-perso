@@ -28,7 +28,7 @@ a  {
 
 h2 {
   color:rgb(255, 255, 255);
-  font-size: 65px;
+  font-size: 60px;
 }
 
 h3 {
@@ -46,7 +46,7 @@ h3 {
   height: 90vh;
   background-size: cover;
   background-position: 50%;
-  display: flex;
+  display:flex;
   align-items: center;
   justify-content:center;
   background-image: url(/images/backgrounds/setup3.jpg);
@@ -65,7 +65,7 @@ h3 {
   background-color: rgb(16, 148, 180);
   color:rgb(255, 255, 255);
   font-size: 20px;
-  margin: 0 450px;
+  margin: 0 180px;
   line-height: 50px;
   text-align: center;
   border-radius: 20px;
