@@ -8,6 +8,9 @@ body {
   src: url ("/font/Muli-VariableFont_wght.ttf");
 }
 
+.noir {
+  color:aqua;
+}
 
 ul {
   list-style: none;
