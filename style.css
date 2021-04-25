@@ -42,7 +42,7 @@ h3 {
 /*section title*/
 
 #main-image {
-  width: 75%;
+  width: 80%;
   padding: 10%;
   position: relative;
   height: 90vh;
@@ -108,7 +108,7 @@ h3 {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
-  width: 82%;
+  width: 100%;
   z-index: 3;
 }
 
@@ -237,7 +237,7 @@ article {
 }
 
 #Projets article {
-  width: 460px;
+  width: 375px;
   height: 270px;
  float: left;
   border-radius: 10px;
