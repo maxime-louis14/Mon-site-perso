@@ -299,7 +299,7 @@ h3 {
     top: 50%;
     left: 15px;
     transform: translate(45%, 56%);
-    width: 45%;
+    width: 55%;
     padding: 20px;
     background: #fff;
     box-sizing: border-box;
@@ -313,7 +313,7 @@ h3 {
       top: 50%;
       left: 15px;
       transform: translate(45%, 175%);
-      width: 45%;
+      width: 55%;
       padding: 20px;
       background: #fff;
       box-sizing: border-box;
@@ -321,7 +321,7 @@ h3 {
       box-shadow: 0 15px 50px rgba(0, 0, 0, .2);position: absolute;
       }
       .row{
-        margin: 4rem;
+        margin: 3rem;
       }
 
   }
