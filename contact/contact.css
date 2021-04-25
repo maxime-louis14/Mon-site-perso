@@ -4,9 +4,7 @@
   }
 
   body {
-   
-    font-family: "Open Sans";
-    src:url("/font/Muli-VariableFont_wght.ttf");
+    font-family:sans-serif;
   }
   
   ul {
