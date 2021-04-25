@@ -65,7 +65,7 @@ h3 {
   background-color: rgb(16, 148, 180);
   color:rgb(255, 255, 255);
   font-size: 20px;
-  margin: 0 180px;
+  margin: 0 127px;
   line-height: 50px;
   text-align: center;
   border-radius: 20px;
@@ -328,7 +328,7 @@ article h4{
   max-width: 10px;
 }
 .wrapper {
-max-width: 453px;
+max-width: 375px;
 }
 
 }
