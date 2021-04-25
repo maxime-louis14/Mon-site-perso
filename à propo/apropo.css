@@ -18,11 +18,11 @@
     color:black;
   }
  p{
-   text-align:left;
+   text-align:justify;
  }
   .container {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 15px;
     transform: translate(0, 90%);
     width: 430px;
