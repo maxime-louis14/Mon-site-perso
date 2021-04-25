@@ -22,10 +22,10 @@
  }
   .container {
     position: absolute;
-    top: 32%;
-    left: 10px;
+    top: 45%;
+    left: 15px;
     transform: translate(0, 90%);
-    width: 350px;
+    width: 467px;
     padding: 30px;
     background: #fff;
     box-sizing: border-box;
@@ -38,7 +38,7 @@
     position: absolute;
     top: 10%;
     left: 10px;
-    width: 100%;
+    width: 98%;
   }
   
 img {
