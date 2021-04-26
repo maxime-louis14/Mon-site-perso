@@ -26,8 +26,6 @@ a  {
   transform: translate(15%, 50%);
   font-size: 75px;
   color: #fff;
-
- 
 }
 
 .wrapper {
@@ -48,7 +46,6 @@ h3 {
  a h4  {
   text-transform: uppercase;
 }
-/*section title*/
 
 #main-image {
   width: 80%;
@@ -62,11 +59,12 @@ h3 {
   justify-content:center;
   background-image: url(/images/backgrounds/setup3.jpg);
 }
+
+
 #main-image h2 {
   font-weight: normal;
   text-align: center;
   margin-top: -255px;
- 
 }
 
 .Button-1 {
@@ -85,8 +83,7 @@ h3 {
   border-radius: 20px;
 }
 
-
- .section-title small { 
+.section-title small { 
   font-size: 17px;
   font-style: italic;
   
