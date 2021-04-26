@@ -298,7 +298,7 @@ h3 {
     position: absolute;
     top: 50%;
     left: 15px;
-    transform: translate(45%, 56%);
+    transform: translate(45%, 95%);
     width: 55%;
     padding: 20px;
     background: #fff;
@@ -312,7 +312,7 @@ h3 {
       position: absolute;
       top: 50%;
       left: 15px;
-      transform: translate(45%, 175%);
+      transform: translate(45%, 225%);
       width: 55%;
       padding: 20px;
       background: #fff;
