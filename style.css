@@ -191,7 +191,6 @@ article h4{
   margin:10px;
 }
 
-
 /* header */
 
 .header {
@@ -228,6 +227,7 @@ article h4{
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  max-width: 250px;
 }
 
 /* menu */
@@ -307,8 +307,6 @@ article h4{
 img {
   max-width: 100%;
 } 
-
-
 
 /* 48em = 768px */
 
