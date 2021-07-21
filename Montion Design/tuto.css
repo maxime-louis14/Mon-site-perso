@@ -91,6 +91,7 @@ article {
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  max-width: 250px;
 }
 
 /* menu */
@@ -167,6 +168,9 @@ article {
   top: 0;
 }
 
+img {
+  max-width: 100%;
+}
 /* 48em = 768px */
 
 @media (min-width: 48em) {
