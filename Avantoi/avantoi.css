@@ -204,12 +204,9 @@ article {
    overflow: hidden;  
   }
 
-img {
-  max-width: 206px;
+video {
+  max-width: 480px;
 }
-
-
-
 
 }
    /*img*/
