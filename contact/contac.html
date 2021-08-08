@@ -11,16 +11,19 @@
 <body>
 
     <h1>Contact</h1>
-    <form method="post">
-        <label>Nom</label>
-        <input type="text" name="nom" required>
-        <label>Email</label>
-        <input type="email" name="email" required>
-        <label>Message</label>
-        <textarea name="message" required></textarea>
-        <input type="submit">
-    </form>
-    
+
+    <form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
     <script src="/contact/contac.php"></script>
 
 </body>
