@@ -17,15 +17,15 @@ a  {
   color:black;
 }
 
-.text{
+.text p{
   font-weight: bold;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 18%;
-  transform: translate(15%, 50%);
+  transform: translate(13%, 50%);
   font-size: 75px;
-  color: #fff;
+  color: rgb(107, 219, 253);
 }
 
 .wrapper {
@@ -191,7 +191,6 @@ article h4{
   margin:10px;
 }
 
-
 /* header */
 
 .header {
@@ -228,6 +227,7 @@ article h4{
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  max-width: 250px;
 }
 
 /* menu */
@@ -308,8 +308,6 @@ img {
   max-width: 100%;
 } 
 
-
-
 /* 48em = 768px */
 
 @media (min-width: 48em) {
@@ -351,7 +349,7 @@ max-width: 375px;
   margin-top: -140px;
   font-size: 25px;
 }
-.text{
+.text p{
   font-weight: bold;
   text-align: center;
   position: absolute;

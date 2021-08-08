@@ -40,7 +40,7 @@
     width: 98%;
   }
   
-img {
+img .about{
   max-width: 95%;
   box-sizing: border-box;
   border-radius: 45px;
@@ -84,6 +84,7 @@ img {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+    max-width: 250px;
   }
   
   .header .menu {
@@ -182,6 +183,11 @@ img {
 
 }
 
+
+img {
+  max-width: 100%;
+} 
+
 /* mobile version*/ 
 
 @media screen and (max-width: 768px) 
@@ -207,7 +213,7 @@ img {
     width: 98%;
   }
   
-img {
+  .about img {
   max-width: 95%;
   box-sizing: border-box;
   border-radius: 45px;
