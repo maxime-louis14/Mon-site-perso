@@ -199,16 +199,20 @@ body {
     height: 5em;
   }
   
-  .button {
-    /* Pour placer le bouton à la même position que les champs texte */
-    padding-left: 90px; /* même taille que les étiquettes */
+  button {
+    text-transform: uppercase;
+    outline: 0;
+    background: #5da2ca;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
   }
   
-  button {
-    /* Cette marge supplémentaire représente grosso modo le même espace que celui
-       entre les étiquettes et les champs texte */
-    margin-left: .5em;
-  }
 
 
 
