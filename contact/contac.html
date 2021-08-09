@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="header"> 
-        <a href="/index.html" class="logo">Maxime Louis</a>
+      <a href="/index.html" class="logo"><img src="/images/logo-maxidev-new.png"></a>
          <input class="menu-btn" type="checkbox" id="menu-btn" />
          <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
          <ul class="menu">
@@ -19,29 +19,28 @@
            <li><a href="/à propo/apropo.html">À propos</a></li>
            <li><a href="/contact/contac.html">Contact</a></li>
          </ul>     
-         </header>
+    </header>
+
+    <h1>Vous pouvez me contacter via ce formulaire.</h1>
+
+<form mane="Contact" netlify>
+  <div>
+    <label for="neme">Nom :</label>
+    <input type="text" id="name" name="user_name">
+  </div>
+
+  <div>
+   <label for="mail">e-mail :</label>
+   <input type="email" id="mail" name="user_mail">
+  </div>
+
+  <div>
+    <label for="msg">Message</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </div>
+</form>
 
 
-<div class="row">
-
-    <form name="contact" netlify>
-        <p>
-          <label>Name <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Email <input type="email" name="email" /></label>
-        </p>
-
-          <p>
-        <textarea name="message" required></textarea>
-          </p>
-          
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
-
-</div>
 <script src="/contact/contac.php"></script>
 
 
