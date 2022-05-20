@@ -128,7 +128,9 @@ article {
 
 #Projets {
   background-color: rgb(214, 234, 243);
-  padding: 0px 0;
+  padding: 0px 0px;
+  height: 310px;
+
 }
 
 #Projets article {
@@ -154,7 +156,7 @@ article {
 }
 
 .overlay {
-  background: rgba(225, 244, 255, 0.74);
+  background: rgba(156, 207, 237, 0.74);
   height:85%;
   width: 190px;
   padding: 20px;
@@ -357,8 +359,8 @@ max-width: 375px;
   transform: translate(0%, 25%);
   top: 60%;
   left: 15px;
-  color:rgb(0, 0, 0);
-  font-size: 36px;
+  color:rgb(92, 207, 245);
+  font-size: 46px;
 }
 .Button-1 {
   position: relative;
